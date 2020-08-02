@@ -46,6 +46,6 @@ Special thanks to the love of my life
 
 ## Questions
 
-[GitHub](https://github.com/junioresc/)
+My [GitHub](https://github.com/junioresc/)  
 If you have any additional questions and would like to reach me, you can at junioresc1092@gmail.com
   

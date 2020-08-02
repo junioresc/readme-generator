@@ -55,9 +55,9 @@ ${data.credits}
 
 ## Questions
 
-[GitHub](https://github.com/${data.github}/)
+My [GitHub](https://github.com/${data.github}/)  
 If you have any additional questions and would like to reach me, you can at ${data.email}
   `;
-  }
+}
   
   module.exports = generateMarkdown;
