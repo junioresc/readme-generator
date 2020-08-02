@@ -12,7 +12,7 @@ function generateMarkdown(data) {
     return `
 # ${data.title}
 
-[![License](https://img.shields.io/badge/License-${data.license}-blue)](LICENSE.txt)
+[![License](https://img.shields.io/badge/License-${data.license.split(" ", 0)}-blue)](LICENSE.txt)
 
 ## Description
 

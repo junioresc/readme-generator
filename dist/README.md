@@ -1,12 +1,11 @@
 
-# Readme Generator
+# Nomadica
 
-[![License](https://img.shields.io/badge/Licensed%20by-MIT%20License-blue)](LICENSE.txt)
-[![Languages](https://img.shields.io/github/languages/top/junioresc/readme-generator)]()
+[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE.txt)
 
 ## Description
 
-Your GitHub profile is an extremely important aspect of your public identity as a developer. A well-crafted one allows you to show off your work to other developers as well as potential employers. An important component of your GitHub profile—and one that many new developers often overlook—is the README.md file. There's no one right way to structure a good README. There is one very wrong way, however, and that is to not include a README at all or to create a very anemic one. This guide outlines a few best practices. As you progress in your career, you will develop your own ideas about what makes a good README. At a minimum, your project README needs a title and a short description explaining the what, why, and how. What was your motivation? Why did you build this project? (Note: The answer is not "Because it was a homework assignment.") What problem does it solve? What did you learn? What makes your project stand out? If your project has a lot of features, consider adding a heading called "Features" and listing them here.
+Have you ever thought about packing your bags and starting over somewhere new? It's tempting, but it can be distressing not knowing how people with your occupation fare financially in a foreign land. Nomadica’s purpose is to give you the information needed to make an informed, confident decision about relocating.  Nomadica allows you to search the median annual salary for 50+ occupations in 200+ countries and compare it to that country’s median household income. These figures are both displayed in the searched country's currency (or USD if the Rates API does not contain a conversion rate). These figures can then be converted to common currencies with the flag buttons at the bottom of the page. Your search history is updated after each successful search and stores your last 5 unique searches.
 
 ## Table of Contents
 
@@ -24,25 +23,23 @@ Your GitHub profile is an extremely important aspect of your public identity as 
 
 ## Usage
     
-There's no one right way to structure a good README. There is one very wrong way, however, and that is to not include a README at all or to create a very anemic one. This guide outlines a few best practices. As you progress in your career, you will develop your own ideas about what makes a good README. At a minimum, your project README needs a title and a short description explaining the what, why, and how. What was your motivation? Why did you build this project? (Note: The answer is not "Because it was a homework assignment.") What problem does it solve? What did you learn? What makes your project stand out? If your project has a lot of features, consider adding a heading called "Features" and listing them here.
+Just head onto the site and search whatever country you want at https://dj-viking.github.io/Nomadica/
 
 ## License
 
-Licensed under the [MIT License](LICENSE.txt).
+Licensed under the [MIT-License](LICENSE.txt).
 
 ## Contributing
 
 
-Before submitting the pull request, you first need to describe the changes you made (rather than asking the project maintainers to figure them out on their own). You should write a descriptive title for your pull request, and then include more details in the body of the pull request. If there are any related GitHub issues, make sure to mention those by number. The body can include Markdown formatting, and you can click the Preview tab to see how it will look.
-    
 
 ## Tests
 
-    Below the pull request form, you will see a list of the commits you made in your branch, as well as the "diffs" for all of the files you changed.
+    npm test
 
 ## Credits
 
-Special thanks to my kids and my wife for pushing me to do better
+Anders Ackerman,  Daniel Monterrosa
 
 ## Questions
 
