@@ -10,53 +10,53 @@ const generateContributing = contributingText => {
 // function to generate markdown for README
 function generateMarkdown(data) {
     return `
-    # ${data.title}
+# ${data.title}
 
-    https://img.shields.io/github/languages/top/${data.github}/${data.title}
-    https://img.shields.io/badge/License-${data.license}-blue
+https://img.shields.io/github/languages/top/${data.github}/${data.title}
+https://img.shields.io/badge/License-${data.license.slice(0, 3)}-blue
 
-    ## Description
+## Description
 
-    ${data.description}
+${data.description}
 
-    ## Table of Contents
+## Table of Contents
 
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [License](#license)
-    * [Contributing](#contributing)
-    * [Tests](#tests)
-    * [Credits](#credits)
-    * [Questions](#questions)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Credits](#credits)
+* [Questions](#questions)
     
-    ## Installation
+## Installation
 
     ${data.install}
 
-    ## Usage
+## Usage
     
-        ${data.usage}
+${data.usage}
 
-    ## License
+## License
 
-    Licensed under the [${data.license}](LICENSE.txt) license.
+Licensed under the [${data.license}](LICENSE.txt) license.
 
-    ## Contributing
+## Contributing
 
-    ${generateContributing(data.contributing)}
+${generateContributing(data.contributing)}
 
-    ## Tests
+## Tests
 
-        ${data.tests}
+    ${data.tests}
 
-    ## Credits
+## Credits
 
-    ${data.credits}
+${data.credits}
 
-    ## Questions
+## Questions
 
-    [GitHub](https://github.com/${data.github}/)
-    If you have any additional questions and would like to reach me, you can at ${data.email}
+[GitHub](https://github.com/${data.github}/)
+If you have any additional questions and would like to reach me, you can at ${data.email}
   `;
   }
   
