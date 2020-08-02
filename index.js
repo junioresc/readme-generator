@@ -76,7 +76,7 @@ const questions = [
         type: `list`,
         name: `license`,
         message: `Please choose a license for your project:`,
-        choices: [`MIT License`, `Apache License 2.0`, `GNU GPLv3`, `The Unlicense`]
+        choices: [`MIT-License`, `Apache-License`, `GNU-GPLv3`, `The-Unlicense`]
     },
     {
         type: `confirm`,
