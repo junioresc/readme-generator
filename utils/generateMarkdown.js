@@ -3,7 +3,7 @@ const generateContributing = contributingText => {
         return ``;
     }
     return `
-    ${contributingText}
+${contributingText}
     `
 }
 
@@ -12,8 +12,8 @@ function generateMarkdown(data) {
     return `
 # ${data.title}
 
-[![Languages](https://img.shields.io/github/languages/top/${data.github}/${data.title})]
 [![License](https://img.shields.io/badge/License-${data.license.slice(0, 3)}-blue)](LICENSE.txt)
+[![Languages](https://img.shields.io/github/languages/top/${data.github}/${data.title})]()
 
 ## Description
 
