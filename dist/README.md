@@ -1,8 +1,8 @@
 
 # readme-generator
 
-https://img.shields.io/github/languages/top/junioresc/readme-generator
-https://img.shields.io/badge/License-MIT-blue
+[![Languages](https://img.shields.io/github/languages/top/junioresc/readme-generator)]
+[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE.txt)
 
 ## Description
 
@@ -28,7 +28,7 @@ There's no one right way to structure a good README. There is one very wrong way
 
 ## License
 
-Licensed under the [MIT License](LICENSE.txt) license.
+Licensed under the [MIT](LICENSE.txt) license.
 
 ## Contributing
 
