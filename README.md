@@ -27,6 +27,8 @@ After you install the required node modules, in the terminal type in
    
 to run the program. It will run the code and start to ask you a series of questions used to fill out the README template
 
+[![IMAGE ALT TEXT](./dist/Capture.PNG)](https://drive.google.com/file/d/1HjQVOD1V4BBJ2oHkwvRkn6TV9isDMk0m/preview)
+
 ## License
 
 Licensed under the [MIT License](LICENSE.txt).
